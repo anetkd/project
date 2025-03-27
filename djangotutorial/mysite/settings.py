@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     'django_plotly_dash.apps.DjangoPlotlyDashConfig',
     'channels',
+    'concerts',
     'rest_framework',
     "django.contrib.sessions",
     "django.contrib.messages",
@@ -88,6 +89,10 @@ REST_FRAMEWORK = {
 }
 
 WSGI_APPLICATION = "mysite.wsgi.application"
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://localhost:8000',
+]
 
 
 # Database

@@ -21,7 +21,7 @@ router.register(r'users', UserViewSet)
 urlpatterns = [
     path("polls/", include("polls.urls")),
     path("admin/", admin.site.urls),
-    path('django_plotly_dash/', include('django_plotly_dash.urls')),
+    path('concerts/', include('concerts.urls')),
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
