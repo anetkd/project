@@ -37,3 +37,4 @@ def create_concert(request):
     else:
         form = ConcertForm()
     return render(request, 'concerts/create_concert.html', {'form': form})
+ 

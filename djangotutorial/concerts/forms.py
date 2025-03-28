@@ -4,4 +4,4 @@ from .models import Concert
 class ConcertForm(forms.ModelForm):
     class Meta:
         model = Concert
-        fields = ['artist', 'date', 'venue', 'price']
+        fields = ['artist', 'venue', 'date', 'price']

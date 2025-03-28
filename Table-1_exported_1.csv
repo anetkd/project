@@ -1,0 +1,6 @@
+Column Name,Type,Description,Required
+artist,Varchar (Max Length 100),Исполнитель,True
+date,Datetime,Дата и время проведения,True
+venue,Varchar (Max Length 200),Место проведения,True
+price,"Decimal (Precision 10, Scale 2)",Цена билета,"True
+"
